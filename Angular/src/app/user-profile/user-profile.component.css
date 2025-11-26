@@ -1,0 +1,63 @@
+.profile-container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.profile-heading {
+  color: rgb(205, 61, 8);
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+/* Table styling */
+.profile-table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table headers and cells */
+.profile-table th,
+.profile-table td {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Header row */
+.profile-table th {
+  background-color: rgb(107, 47, 106);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Alternate row background */
+.profile-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Profile image */
+.profile-img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* 'User not found' message */
+p {
+  color: red;
+  font-weight: 500;
+  margin-top: 20px;
+}
